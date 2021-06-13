@@ -11,7 +11,7 @@ describe('Fetch testing', () => {
     test('Should be bring 10 elements ', async() => {
         const gifs = await getGifs('');
 
-        expect( gifs.length ).toBe( 0 );
+        expect( gifs.length ).toBe( 10 );
    })
     
 })

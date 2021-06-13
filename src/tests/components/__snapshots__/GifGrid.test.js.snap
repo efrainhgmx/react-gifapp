@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <GifGrid /> component Snapshot of component 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Batman
+  </h3>
+  <p>
+    Cargando....
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
