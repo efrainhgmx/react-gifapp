@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test on <GifExpertApp /> Should math with the snapshoot 1`] = `
+exports[`Test on <GifExpertApp /> Should be show a list of categories 1`] = `
 <Fragment>
   <h2>
     GifExpertApp
@@ -11,9 +11,30 @@ exports[`Test on <GifExpertApp /> Should math with the snapshoot 1`] = `
   <hr />
   <ol>
     <GifGrid
-      category="One punch"
-      key="One punch"
+      category="Batman"
+      key="Batman"
+    />
+    <GifGrid
+      category="One Punch"
+      key="One Punch"
+    />
+    <GifGrid
+      category="DC Legends"
+      key="DC Legends"
     />
   </ol>
+</Fragment>
+`;
+
+exports[`Test on <GifExpertApp /> Should math with the snapshoot 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
 </Fragment>
 `;
